@@ -30,6 +30,5 @@ def main():
 if __name__=='__main__':
 	try:
 		main()
-	except IndexError:exit('%s[%s!%s] Use صدام الشرعبي يرحب بكمpython2 %s <nomor> <jumlahspam>\n    Example :  
-	python2call.py +967717225465 3'العدد هنا%(W,R,W,sys.argv[0],sys.argv[0]))
+	except IndexError:exit('%s[%s!%s] Use : python2 %s <nomor> <jumlahspam>\n    Example : python2 %s +628996604527 3'%(W,R,W,sys.argv[0],sys.argv[0]))
 	except requests.exceptions.ConnectionError:exit('%s[%s!%s] Check internet'%(W,R,W))
